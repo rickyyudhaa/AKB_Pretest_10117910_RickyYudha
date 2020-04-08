@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formBiodata">
+
+    <TextView
+        android:id="@+id/txtPanggilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Nama Panggilan Kamu"
+        android:textColor="#202020"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/txtUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="220dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Umur Kamu"
+        android:textColor="#202020"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="330dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/btnround"
+        android:ellipsize="none"
+        android:text="Selanjutnya"
+        android:fontFamily="@font/nunito_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="351dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contoh : Budi"
+        android:textColor="#A7A7A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="351dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="270dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Contoh : 12"
+        android:textColor="#A7A7A7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
